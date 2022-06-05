@@ -1,0 +1,1 @@
+https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment/optional-software/nginx-proxy.html#nginx-virtual-host

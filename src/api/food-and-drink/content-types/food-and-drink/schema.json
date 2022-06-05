@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "food_and_drinks",
+  "info": {
+    "singularName": "food-and-drink",
+    "pluralName": "food-and-drinks",
+    "displayName": "Food and Drink",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "text"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Halal (With Certificate)",
+        "Halal (Only Claim)",
+        "Non Halal"
+      ]
+    },
+    "Address": {
+      "type": "text"
+    },
+    "Certificate": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "text",
+      "private": true
+    },
+    "Note": {
+      "type": "text"
+    }
+  }
+}
